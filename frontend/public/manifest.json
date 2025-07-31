@@ -1,0 +1,33 @@
+{
+  "name": "Weather App",
+  "short_name": "Weather",
+  "description": "Aplicatie meteo cu harta interactiva si detalii complete despre vreme",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#8f80f3",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjMDAwIi8+CjxwYXRoIGQ9Ik0xMiAyTDEzLjA5IDguMjZMMjAgOUwxMy4wOSA5Ljc0TDEyIDE2TDEwLjkxIDkuNzRMNCA5TDEwLjkxIDguMjZMMTIgMloiIGZpbGw9IiNmZmZmZmYiLz4KPC9zdmc+Cg==",
+      "sizes": "24x24",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiBmaWxsPSIjMDAwIi8+CjxwYXRoIGQ9Ik05NiA0OEwxMDQuNzIgOTZIMTM2TDEwNC43MiAxMDRIOTZMODcuMjggOTZINThMODcuMjggOTZIOTZaIiBmaWxsPSIjZmZmZmZmIi8+Cjwvc3ZnPgo=",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBmaWxsPSIjMDAwIi8+CjxwYXRoIGQ9Ik0yNTYgMTI4TDI3OS4yIDI1Nkg0MjZMMjc5LjIgMjY4SDI1NkwyMzIuOCAyNTZIODVMMjMyLjggMjU2SDI1NloiIGZpbGw9IiNmZmZmZmYiLz4KPC9zdmc+Cg==",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["weather", "productivity", "utilities"],
+  "lang": "ro",
+  "dir": "ltr"
+} 
