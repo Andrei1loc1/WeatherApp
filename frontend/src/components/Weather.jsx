@@ -40,7 +40,9 @@ function Weather({ onWeatherDataChange, detectedCity }){
         <>
             <div className={`weather-all ${animation ? "animate" : ""}`}>
                 <Search onSearch={setCity}/>
-                <h1 className="current-city">{city}</h1>
+                <h1 className="current-city">
+                    {weatherData?.location?.name || city}
+                </h1>
                 <CurrentWeather weatherData={weatherData}/>
                 <WeatherDetails weatherData={weatherData}/>
                 <DailyForecast weatherData={weatherData}/>

@@ -76,19 +76,15 @@ function LocationPermission({ onLocationDetected }) {
 
   const getCityFromCoords = async (lat, lon) => {
     try {
-      // Folosește OpenStreetMap Nominatim pentru reverse geocoding
+      // Folosește WeatherAPI.com pentru reverse geocoding (mai precis pentru România)
+      const API_KEY = "f8859c9225c949a48aa175950253103";
       const response = await fetch(
-        `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&zoom=10&accept-language=ro`
+        `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${lat},${lon}&aqi=no`
       );
       const data = await response.json();
       
-      if (data.address) {
-        // Încearcă să găsească orașul din răspuns
-        return data.address.city || 
-               data.address.town || 
-               data.address.village || 
-               data.address.county ||
-               data.address.state;
+      if (data.location && data.location.name) {
+        return data.location.name;
       }
       return null;
     } catch (err) {
