@@ -264,7 +264,8 @@
   }
 
   .day-item {
-    flex-basis: 45%;
+    flex-basis: 30%; /* Pentru 3 zile pe rând */
+    min-width: 80px; /* Asigură că nu devin prea mici */
   }
 
   .day-high {
